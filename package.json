@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm install inherits && mocha"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,10 @@
   "homepage": "https://github.com/tneginareb/docker-demo#readme",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "inherits": "^2.0.3",
+    "mocha": "^5.2.0",
+    "ms": "^2.1.1"
   }
 }
